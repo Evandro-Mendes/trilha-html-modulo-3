@@ -1,70 +1,100 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 header {
     border-bottom: solid 1px;
 }
+
+#oque,
+#tipos,
+#como,
+#deonde {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .titulo {
     display: inline;
     font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
 }
+
 figure {
     display: inline-block;
     margin: 0px;
     padding: 0px;
 }
+
 form {
     display: inline-block;
     ;
-    
+
 }
+
 input {
     width: 187px;
     padding: 0px;
     margin: 0px;
 
 }
+
 label {
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
-ul { list-style: disc; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+ul {
+    list-style: disc;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 #estilo {
     display: grid;
     grid-template-columns: 0.46fr 1fr 0.54fr;
     grid-template-areas: "aside" "main" "article";
-    
+
 }
+
 article {
     border-left: solid 1px;
 }
+
 article h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     text-align: center;
     color: gray;
 }
+
 article p {
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
+
 aside {
-    border-right: solid 1px ;
+    border-right: solid 1px;
     padding-left: 10px;
 }
+
 aside h2 {
     font-family: 'Times New Roman', Times, serif;
 
 }
+
 aside ul {
-    list-style-type:none;
+    list-style-type: none;
 }
+
 main {
     margin: 19px
 }
@@ -82,10 +112,32 @@ aside td {
     border-left: solid 1px;
     border-bottom: solid 1px;
     border-right: solid 1px;
-    padding: 18px ;
+    padding: 18px;
+    font-style: italic;
 }
+
 aside li:hover {
     display: inline;
     background-color: lightgray;
     border-radius: 0px 10px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 0.46fr 1fr 0.54fr;
+    grid-template-areas: "links" "recado" "assuntos";
+    border-top: solid 1px;
+}
+
+#links h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#recado h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#recado p {
+    text-align: right;
 }

@@ -23,7 +23,7 @@
 
 
         <form name="pesquisa" action="#" method="get">
-            <input form="pesquisa" id="search" list="busca" type="text" placeholder="Digite aqui"><button
+            <input form="pesquisa" id="search" list="busca" type="text" placeholder="Digite aqui"><button form="pesquisa"
                 type="submit">Pesquisa</button>
             <datalist id="busca">
                 <option value="Inteligência Artificial"></option>
@@ -36,12 +36,12 @@
 
         <aside>
             <nav>
-                <h2>Início</h2>
+                <h2 id="inicio">Início</h2>
                 <ul>
                     <li><a href="#oque">O que é a Inteligência Artificial (IA)?</a></li>
-                    <li><a href="#">Quais os tipos de IA?</a></li>
-                    <li><a href="#">Como Funciona?</a></li>
-                    <li><a href="#">De onde surgiu o termo IA?</a></li>
+                    <li><a href="#tipos">Quais os tipos de IA?</a></li>
+                    <li><a href="#como">Como Funciona?</a></li>
+                    <li><a href="#deonde">De onde surgiu o termo IA?</a></li>
                 </ul>
             </nav>
             <h2>O Pai da Inteligência Artificial</h2>
@@ -74,11 +74,11 @@
             </table>
         </aside>
         <main>
-            <h3 id="oque">O que é Inteligência Artificial (IA)?</h3>
+            <h2 id="oque">O que é Inteligência Artificial (IA)?</h2>
             <p>A inteligência artificial (IA) é um conjunto de tecnologias que permitem aos computadores executar uma
                 variedade de funções avançadas, incluindo a capacidade de ver, entender e traduzir idiomas falados e
                 escritos, analisar dados, fazer recomendações e muito mais.</p>
-            <h3>Quais os tipos de IA ?</h3>
+            <h2 id="tipos">Quais os tipos de IA ?</h2>
             <p>As diversas finalidades das aplicações da IA permitem classificá-las em categorias. Essa classificação é
                 um campo em constante evolução, com novas categorias e subcategorias surgindo à medida que a tecnologia
                 avança.Embora não exista uma classificação definitiva, podemos apresentar algumas, baseadas em
@@ -97,14 +97,14 @@
             <p>IA Embodied: Conhecida como IA Corporificada, é um tipo de IA que combina inteligência artificial com
                 robótica, permitindo que os sistemas de IA interajam com o mundo físico.</p>
 
-            <h3>Como funciona?</h3>
+            <h2 id="como">Como funciona?</h2>
             <ul>
                 <li>A IA aprende a reconhecer padrões e tendências, resolver problemas e prever ocorrências futuras.
                 </li>
                 <li>A IA pode analisar grandes volumes de dados e tomar decisões ou planejar estratégias.</li>
                 <li>A IA pode ver, entender e traduzir idiomas falados e escritos.</li>
             </ul>
-            <h3>De onde surgiu o termo IA?</h3>
+            <h2 id="deonde">De onde surgiu o termo IA?</h2>
             <p>A questão sobre o que é "inteligência artificial", mesmo como definida anteriormente, pode ser separada
                 em duas partes: "qual a natureza do artificial" e "o que é inteligência". A primeira questão é de
                 resolução relativamente fácil, apontando no entanto para a questão de o que poderá o homem construir.
@@ -114,16 +114,19 @@
                 único tipo de inteligência que universalmente se aceita como estando ao alcance do nosso estudo: a
                 inteligência do ser humano. O estudo de animais e de sistemas artificiais que não são modelos triviais
                 começa a ser considerado como pauta de estudo na área da inteligência.</p>
+            <br>
+            <p><small><a href="#inicio">[início]</a></small></p>
         </main>
         <article>
             <h1>Serjão dos foguetes falando sobre a IA</h1>
             <p>Assista a esse bate papo interessante sobre Inteligência Artificial no podcast do Flow com o Ygor Coelho,Serjão Sacani e Miguel Nicolis!</p>
             <iframe width="530" height="450" src="https://www.youtube.com/embed/u78AkEhOqmM?si=Hs29V7l1BM-DzBFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
             </iframe>
+            <p>A inteligência artificial (IA) está cada vez mais presente no nosso dia a dia, mas será que ela realmente é "inteligente"? Neste vídeo, exploramos o que de fato significa inteligência, como os sistemas de IA funcionam e se eles podem ser comparados ao pensamento humano. Será que máquinas pensam ou apenas simulam a inteligência? Descubra os mitos e realidades da IA e como essa tecnologia impacta nosso futuro.</p>
         <article>
     </div>
     <footer>
-        <hr>
+        <div id="links">
         <h1><u>Links de Referência</u></h1>
         <ol>
             <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=pt-BR"
@@ -140,6 +143,14 @@
                     href="https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial#:~:text=Outra%20defini%C3%A7%C3%A3o%20de%20Intelig%C3%AAncia%20Artificial,pensam%20racionalmente%20ou%20agem%20racionalmente%22.">&uparrow;De
                     onde surgiu o termo IA?&UpperRightArrow;</a></li>
         </ol>
+        </div>
+        <div id="recado">
+        <h1>Atenção!</h1>
+        <h2>Este é um trabalho didático sem fins lucrativos e sem qualquer intenção de ferir os direitos autorais da pessoas mencionadas ou quebrar quaisquer diretrizes, objetivo da criação desta página foi apenas para prática e testar minhas habilidades com as tecnologias nela contida. </h2>
+        <p><small><em>Página dedicada a empresa de ensino de tecnologia <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2F&state=3cac81e4-d900-49fb-97c5-67e4be2cdf62&response_mode=fragment&response_type=code&scope=openid&nonce=d271cef4-446b-41a9-857a-954c7f7769f3">DIO.ME</a></em></small>.</p>
+        </div>
+        <div id="nuul">        
+        </div>
         <footer>
 
 </body>
