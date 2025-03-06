@@ -1,44 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <meta
+        descrition="Inteligência Artificial (abreviado IA) genericamente é a inteligência, o raciocínio e, o aprendizado exibido por máquinas semelhante ao raciocínio humano.">
+    <title>Inteligência Artificial</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon_io (3)/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
-        </div>
-    </div>
+    <header>
+        <figure>
+            <img srcset="https://static.vecteezy.com/ti/vetor-gratis/t1/14018585-logotipo-da-wikipedia-em-fundo-transparente-gratis-vetor.jpg"
+                width="100" srcset="../assets/images/logowiki.jpg" alt="logo da wikipedia">
 
-    <div class="bar"></div>
+        </figure>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
-            <ul>
-                <li><a href="#">Links</a></li>
-            </ul>
-        </div>
 
-        <div class="main">
+        <form name="pesquisa" action="#" method="get">
+            <input form="pesquisa" id="search" list="busca" type="text" placeholder="Digite aqui"><button
+                type="submit">Pesquisa</button>
+            <datalist id="busca">
+                <option value="Inteligência Artificial"></option>
+                <option value="IA"></option>
+            </datalist>
+        </form>
+        <h1 class="titulo">Inteligência Artificial (IA)</h1>
+    </header>
+    <div id="estilo">
+
+        <aside>
+            <nav>
+                <h2>Início</h2>
+                <ul>
+                    <li><a href="#oque">O que é a Inteligência Artificial (IA)?</a></li>
+                    <li><a href="#">Quais os tipos de IA?</a></li>
+                    <li><a href="#">Como Funciona?</a></li>
+                    <li><a href="#">De onde surgiu o termo IA?</a></li>
+                </ul>
+            </nav>
+            <h2>O Pai da Inteligência Artificial</h2>
             
-        </div>
-
-        <div class="anchors">
-            <h2>Neste Artigo</h2>
+            <figure>                
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University_%28b%26w%29.jpg/450px-Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University_%28b%26w%29.jpg" width="350" alt="foto de John McCarthy o pai da IA">
+                <figcaption>John McCarthy</figcaption>               
+            </figure>
+            <table cellspacing="0">
+                <tr>
+                    <td>Conhecido por</td>
+                    <td>Lisp</td>
+                </tr>
+                <tr>
+                    <td>Nascimento</td>
+                    <td>4 de setembro de 1927, Boston</td>
+                </tr>
+                <tr>
+                    <td>Morte</td>
+                    <td>23 de outubro de 2011 (84 anos)</td>
+                </tr>
+                <tr>
+                    <td>Nacionalidade</td>
+                    <td>Estadunidense</td>
+                </tr>
+                <tr>
+                    <td>Campo(s)</td>
+                    <td>Ciência da Computação</td>
+                </tr>
+            </table>
+        </aside>
+        <main>
+            <h3 id="oque">O que é Inteligência Artificial (IA)?</h3>
+            <p>A inteligência artificial (IA) é um conjunto de tecnologias que permitem aos computadores executar uma
+                variedade de funções avançadas, incluindo a capacidade de ver, entender e traduzir idiomas falados e
+                escritos, analisar dados, fazer recomendações e muito mais.</p>
+            <h3>Quais os tipos de IA ?</h3>
+            <p>As diversas finalidades das aplicações da IA permitem classificá-las em categorias. Essa classificação é
+                um campo em constante evolução, com novas categorias e subcategorias surgindo à medida que a tecnologia
+                avança.Embora não exista uma classificação definitiva, podemos apresentar algumas, baseadas em
+                determinados critérios.</p>
+            <h3>Baseado em objetivos e capacidade</h3>
+            <p>Fraca ou Específica (ANI): refere-se a sistemas de IA projetados para realizar tarefas específicas com
+                eficiência. É o tipo mais comum e presente em nosso dia a dia. Entre essas tarefas estão:</p>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li>Processamento de Linguagem Natural;</li>
+                <li>Aprendizado de Máquina Preditivo;</li>
+                <li>Reconhecimento de Imagens.</li>
             </ul>
-        </div>
-    </div>
+            <p>Forte ou Geral (AGI): É um tipo hipotético de IA. Essa forma continua fora do alcance da tecnologia
+                atual, propondo uma capacidade equivalente ou superior à humana. Esse tipo de sistema poderia realizar
+                qualquer tarefa intelectual possível a um humano.</p>
+            <p>IA Embodied: Conhecida como IA Corporificada, é um tipo de IA que combina inteligência artificial com
+                robótica, permitindo que os sistemas de IA interajam com o mundo físico.</p>
 
-    <div class="footer">
-
+            <h3>Como funciona?</h3>
+            <ul>
+                <li>A IA aprende a reconhecer padrões e tendências, resolver problemas e prever ocorrências futuras.
+                </li>
+                <li>A IA pode analisar grandes volumes de dados e tomar decisões ou planejar estratégias.</li>
+                <li>A IA pode ver, entender e traduzir idiomas falados e escritos.</li>
+            </ul>
+            <h3>De onde surgiu o termo IA?</h3>
+            <p>A questão sobre o que é "inteligência artificial", mesmo como definida anteriormente, pode ser separada
+                em duas partes: "qual a natureza do artificial" e "o que é inteligência". A primeira questão é de
+                resolução relativamente fácil, apontando no entanto para a questão de o que poderá o homem construir.
+            </p>
+            <p>A segunda questão seria consideravelmente mais difícil, levantando a questão da consciência, identidade e
+                mente (incluindo a mente inconsciente) juntamente com a questão de que componentes estão envolvidos no
+                único tipo de inteligência que universalmente se aceita como estando ao alcance do nosso estudo: a
+                inteligência do ser humano. O estudo de animais e de sistemas artificiais que não são modelos triviais
+                começa a ser considerado como pauta de estudo na área da inteligência.</p>
+        </main>
+        <article>
+            <h1>Serjão dos foguetes falando sobre a IA</h1>
+            <p>Assista a esse bate papo interessante sobre Inteligência Artificial no podcast do Flow com o Ygor Coelho,Serjão Sacani e Miguel Nicolis!</p>
+            <iframe width="530" height="450" src="https://www.youtube.com/embed/u78AkEhOqmM?si=Hs29V7l1BM-DzBFr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        <article>
     </div>
+    <footer>
+        <hr>
+        <h1><u>Links de Referência</u></h1>
+        <ol>
+            <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=pt-BR"
+                    target="_blank">&uparrow;O que é inteligência artificial (ia)?&UpperRightArrow;</a></li>
+            <li><a
+                    href="https://www.sap.com/brazil/products/artificial-intelligence/what-is-artificial-intelligence.html#:~:text=IA%20(Intelig%C3%AAncia%20Artificial)%20%C3%A9%20uma,prever%20condi%C3%A7%C3%B5es%20e%20ocorr%C3%AAncias%20futuras.">&uparrow;Quais
+                    os tipos de IA?&UpperRightArrow;</a></li>
+            <li><a href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=pt-BR">&uparrow;Como
+                    Funciona?&UpperRightArrow;</a></li>
+            <li><a
+                    href="https://www.todamateria.com.br/inteligencia-artificial/#:~:text=Baseado%20no%20n%C3%ADvel%20de%20autonomia,sem%20necessidade%20de%20interven%C3%A7%C3%A3o%20humana.">&uparrow;Quais
+                    os tipos de IA[2]&UpperRightArrow;</a></li>
+            <li><a
+                    href="https://pt.wikipedia.org/wiki/Intelig%C3%AAncia_artificial#:~:text=Outra%20defini%C3%A7%C3%A3o%20de%20Intelig%C3%AAncia%20Artificial,pensam%20racionalmente%20ou%20agem%20racionalmente%22.">&uparrow;De
+                    onde surgiu o termo IA?&UpperRightArrow;</a></li>
+        </ol>
+        <footer>
+
 </body>
+
 </html>

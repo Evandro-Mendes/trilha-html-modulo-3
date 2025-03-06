@@ -3,36 +3,89 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
-.bar {
-    background-color: #f9f9fb;
-    padding:15px;
-    border-top: solid 1px #cdcdcd;
-    border-bottom: solid 1px #cdcdcd;
+header {
+    border-bottom: solid 1px;
 }
-.content {
-    max-width: 1440px;
-    margin: auto;
-    grid-gap: 3rem;
-    display: grid;
-    gap: 3rem;
-    grid-template-areas: "sidebar main anchors";
-    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-.footer {
-    min-height: 100px;
-    border-top: solid 1px #cdcdcd;
-}
-.anchors {
-    border-left: solid 1px #cdcdcd;
-    padding-left: 15px;
-}
-.sidebar {
-    border-right: solid 1px #cdcdcd;
+.titulo {
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
 }
 figure {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+form {
+    display: inline-block;
+    ;
+    
+}
+input {
+    width: 187px;
+    padding: 0px;
+    margin: 0px;
+
+}
+label {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+ul { list-style: disc; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+#estilo {
+    display: grid;
+    grid-template-columns: 0.46fr 1fr 0.54fr;
+    grid-template-areas: "aside" "main" "article";
+    
+}
+article {
+    border-left: solid 1px;
+}
+article h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     text-align: center;
+    color: gray;
+}
+article p {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+aside {
+    border-right: solid 1px ;
+    padding-left: 10px;
+}
+aside h2 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+aside ul {
+    list-style-type:none;
+}
+main {
+    margin: 19px
+}
+
+aside figcaption {
+    text-align: center;
+}
+
+aside figure {
+    border: solid 1px;
+    padding: 30px;
+}
+
+aside td {
+    border-left: solid 1px;
+    border-bottom: solid 1px;
+    border-right: solid 1px;
+    padding: 18px ;
+}
+aside li:hover {
+    display: inline;
+    background-color: lightgray;
+    border-radius: 0px 10px;
 }
